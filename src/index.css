@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
 
 .logo {
   width: 50px;
@@ -7,9 +12,7 @@
 }
 
 
-
 .content-container{
-  font-family: 'Roboto', sans-serif;
   background: url('https://images.unsplash.com/photo-1526488807855-309186804587?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80');
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,15 +26,6 @@
   justify-content: center;
 }
 
-
-.img-acc-container {
-  /* border: 1px solid black; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 75%;
-  height: 50%;
-}
 
 .nav-container {
   /* border: 1px solid black; */
@@ -91,12 +85,12 @@
   margin-top: 2rem;
 }
 
- button {
-   width: 100%;
- }
+button {
+  width: 100%;
+}
 .cards-container div{
   /* bordeR: 1px solid white; */
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 0.5rem;
   width: 160px;
   display: flex;
@@ -114,6 +108,58 @@
 .cards-container img{
   width: 75px;
 }
+
+/* about container */
+.about-container {
+  background: url('https://images.unsplash.com/photo-1526488807855-309186804587?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  min-height: 95vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-container {
+  width: 75%;
+}
+
+
+.faq-title {
+  color: white;
+}
+
+.listing-container{ 
+  background: url('https://images.unsplash.com/photo-1526488807855-309186804587?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  min-height: 95vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.featured-container{
+  width: 50%;
+  border: 1px solid white;
+}
+
+.explore-container{
+  width: 50%;
+  border: 1px solid white;
+  height: 50%;
+}
+
+/*  */
 
 @media (max-width: 765px){
 

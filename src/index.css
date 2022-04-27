@@ -187,6 +187,12 @@ button {
     font-size: 1rem;
   }
 
+  .listing-container{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 5rem;
+  }
+
   .about-container {
     display: flex;
     justify-content: flex-start;

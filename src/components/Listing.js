@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 function Listing() {
   return (
     <div className='listing-container'>
+      <h1 className='text-light'>Listings</h1>
       <div className='featured-container'>  
         <Card>
           <Card.Header as="h5">Featured</Card.Header>

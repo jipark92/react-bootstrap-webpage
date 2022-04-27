@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 export default function NavBar() {
     return (
         <header className='header-container'>
-            <Navbar className='bg-success px-3 py-3' expand="md">
+            <Navbar className='bg-primary px-3 py-3' expand="md">
 
                 <Navbar.Brand className='text-light'>
                     <img 

@@ -15,7 +15,6 @@ export default function NavBar() {
                     />
                 </Navbar.Brand>
 
-
                 <Navbar.Toggle/>
                 <Navbar.Collapse>
                     <Nav className='nav-container justify-content-center'>

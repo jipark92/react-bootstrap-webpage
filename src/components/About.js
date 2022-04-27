@@ -8,7 +8,6 @@ export default function About() {
             <div className='faq-title'>
                 <h1>FAQ</h1>
             </div>
-
             <Accordion className="faq-container">
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Accordion Item #1</Accordion.Header>

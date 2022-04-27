@@ -11,13 +11,11 @@
   height: 50px;
 }
 
-
 .content-container{
   background: url('https://images.unsplash.com/photo-1526488807855-309186804587?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* border: 5px solid rgb(255, 253, 253); */
   min-height: 95vh;
   min-width: 100vw;
   display: flex;
@@ -26,56 +24,45 @@
   justify-content: center;
 }
 
-
 .nav-container {
-  /* border: 1px solid black; */
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
+  gap: 3rem;
   color: white;
-  font-size: 1.5rem;
-  /* position: fixed; */
+  font-size: 1.8rem;
 }
 
 .carousel-container {
-  /* border: 1px solid black; */
   display: flex;
   justify-content: center;
   gap: 3rem;
 }
 
-
-
 .search-container {
-  /* border: 1px solid red; */
   height: 50%;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content:center;
   align-items: center;
-  /* gap: 1rem; */
-  /* background-color: white; */
 }
+
 .title-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid black; */
   padding-bottom: 5rem;
 }
 
 .form-container {
   display: flex;
-  width: 75%;
-  /* border: 1px solid red; */
-  
+  width: 75%;  
 }
 
 .cards-container{
-  /* bordeR: 1px solid white; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -89,7 +76,6 @@ button {
   width: 100%;
 }
 .cards-container div{
-  /* bordeR: 1px solid white; */
   border-radius: 10px;
   padding: 0.5rem;
   width: 160px;
@@ -127,7 +113,6 @@ button {
 .faq-container {
   width: 75%;
 }
-
 
 .faq-title {
   color: white;
@@ -175,9 +160,7 @@ button {
 }
 
 /*mobile  */
-
 @media (max-width: 765px){
-
   .form-container {
     display: flex;
     flex-direction: column;
@@ -196,8 +179,6 @@ button {
     font-size: 0.8rem;
   }
 
-
-
   .cards-container img{
     width: 50px;
   }
@@ -205,9 +186,20 @@ button {
   .cards-container h4{
     font-size: 1rem;
   }
+
+  .about-container {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 5rem;
+  }
+
+  .contact-container {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 5rem;
+  }
 }
-
-
+/* smaller screens */
 @media (max-width: 425px){
   .cards-container{
     display: flex;
